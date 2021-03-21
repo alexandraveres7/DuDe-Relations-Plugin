@@ -1,0 +1,28 @@
+{
+  "id": "ces-dude-relations",
+  "name": "CES - DuDe Relations",
+  "description": "This plugin shows relations between files with the same duplicated code.",
+  "version": "1.0.0",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "dude-relations",
+      "name": "DuDe Relations Command",
+      "type": "analyzer",
+      "description": "Generates relations between files with the same duplicated code",
+      "commandTemplate": "python3 dude_relations_plugin.py ${outputFile} ${baseFolder}",
+      "configurationFields": [
+        {
+          "id": "baseFolder",
+          "name": "Root Folder",
+          "type": "FOLDER",
+          "description": "The absolute path to the folder where your project exists",
+          "tooltip": "The absolute path to the folder where your project exists",
+          "showDescription": false,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
