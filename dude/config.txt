@@ -1,5 +1,5 @@
-project.name=home-assistant
-project.folder=/home/alexandra/core/homeassistant/
+project.name=your-project
+project.folder=
 
 min.length=30
 min.chunk=10
