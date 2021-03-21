@@ -39,7 +39,7 @@ _Example for root folder: /home/user/.dx-platform/projects/your_project_name_
 
 Go to the root directory of this project and run the command below:
 
-`$ python3 dude_relations_plugin.py result.json < path to folder you wish to analyse >`
+`$ python3 dude_relations_plugin.py result.json <absolute path to folder you wish to analyse>`
 
 <h2 >Credits</h2>
 
