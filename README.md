@@ -6,6 +6,7 @@ This project takes the output from an existing plugin named DuDe (Duplicate Dete
 The reason for this project is to analyse a project folder of your choice by obtaining relations between files with the same duplicated code and seeing them graphically represented in DX Platform.
 
 <h2 >Screenshots</h2>
+In DX Platform Relations you would get something like this:
 
 ![HIERARCHICAL EDGE BUNDLING](/graph1.png)
 
@@ -40,6 +41,14 @@ _Example for root folder: /home/user/.dx-platform/projects/your_project_name_
 Go to the root directory of this project and run the command below:
 
 `$ python3 dude_relations_plugin.py result.json <absolute path to folder you wish to analyse>`
+
+**You will see the results in the result.json file.**
+
+<h4 >Docker</h4>
+
+You can also get this project as a Docker container from [DockerHub](https://hub.docker.com/r/alexandraveres7/dude-relations)
+
+`$docker run -v <path to folder you want to create relations for>:/ale -v <path to folder you wish to see results in/result.json>:/dude-relations/result.json dude-relations-plugin`
 
 <h2 >Contributing</h2>
 We are not open to new contributors.
