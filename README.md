@@ -20,6 +20,8 @@ You **MUST** have **Java 11/above** and **Python version 3.8/above** installed i
 
 <h4 >DX Platform</h4>
 
+After you clone this repository or download the zip, follow the steps below:
+
 1. Download and install [DX-Platform](https://drive.google.com/file/d/1bC4ZJ_RVcGJezAHZ45AIF8UKAh3gG3NY/view) on your computer. Follow the README for installation guidelines.
 2. Import your desired project to DX Platform following the guidelines from it's README.
 3. Go to the plugins directory in the DX Platform project and create a folder named 'dude-relations'
@@ -39,7 +41,9 @@ _Example for root folder: /home/user/.dx-platform/projects/your_project_name_
 
 <h4 >Standalone</h4>
 
-Go to the root directory of this project and run the command below:
+After you clone this repository or download the zip, follow the steps below:
+
+Go to the root directory of this project and run the command:
 
 `$ python3 dude_relations_plugin.py result.json <absolute path to folder you wish to analyse>`
 
@@ -70,4 +74,16 @@ https://wettel.github.io/dude.html
 
 <h2 >License</h2>
 
-MIT © [Alexandra Veres & Norica Bacuieti]
+ Copyright 2021 Alexandra Veres & Norica Bacuieti
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
