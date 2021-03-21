@@ -48,7 +48,13 @@ Go to the root directory of this project and run the command below:
 
 You can also get this project as a Docker container from [DockerHub](https://hub.docker.com/r/alexandraveres7/dude-relations)
 
-`$docker run -v <path to folder you want to create relations for>:/ale -v <path to folder you wish to see results in/result.json>:/dude-relations/result.json dude-relations-plugin`
+To get the container:
+
+`$ docker pull alexandraveres7/dude-relations`
+
+To run the container use the command below:
+
+`$ docker run -v <path to folder you want to create relations for>:/ale -v <path to folder you wish to see results in/result.json>:/dude-relations/result.json alexandraveres7/dude-relations`
 
 <h2 >Contributing</h2>
 We are not open to new contributors.
