@@ -3,7 +3,7 @@
 This project takes the output from an existing plugin named DuDe (Duplicate Detector) and creates a json with nodes and links. The nodes are files that have duplicated code and the links have a target and a source which represent two files with the same duplicated code block.
 
 <h2 >Motivation</h2>
-The reason for this project is to obtain relations between files with the same duplicated code and to see them graphically represented in DX Platform.
+The reason for this project is to analyse a project folder of your choice by obtaining relations between files with the same duplicated code and seeing them graphically represented in DX Platform.
 
 <h2 >Screenshots</h2>
 
