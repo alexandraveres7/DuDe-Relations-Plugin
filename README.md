@@ -1,6 +1,7 @@
 # DuDe-Relations-Plugin
 
 DuDe is a text-based, language-independent code duplication (code clones) detector, gravitating around the concept of duplication chain.
+
 This project takes the output from DuDe and creates a json with nodes and links. The nodes are files that have duplicated code and the links have a target and a source which represent two files with the same duplicated code block.
 
 <h2 >Motivation</h2>
