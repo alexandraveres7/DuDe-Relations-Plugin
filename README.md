@@ -13,7 +13,7 @@ The reason for this project is to obtain relations between files with the same d
 
 <h2 >Requirements</h2>
 
-You MUST have java 11/above and python version 3.8/above installed in order to run this project.
+You **MUST** have **Java 11/above** and **Python version 3.8/above** installed in order to run this project.
 
 <h2 >Usage</h2>
 
@@ -25,7 +25,7 @@ You MUST have java 11/above and python version 3.8/above installed in order to r
 4. Run the deploy.sh script which you can find in the root folder of this project.
 5. Run dx platform
 `$ ./startDx.sh`
-6. Open your favorite browser on localhost:6060/index.html
+6. Open your favorite browser on **localhost:6060/index.html**
 7. Open the project you wish to analyze.
 8. Go to configurations and add a new configuration command for Dude Relations plugin. The command must have a name, a description and a root folder (the absolute path to the folder where your project exists).
 
