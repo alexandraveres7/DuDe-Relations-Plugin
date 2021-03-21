@@ -41,6 +41,9 @@ Go to the root directory of this project and run the command below:
 
 `$ python3 dude_relations_plugin.py result.json <absolute path to folder you wish to analyse>`
 
+<h2 >Contributing</h2>
+We are not open to new contributors.
+
 <h2 >Credits</h2>
 
 Thank you to the team that developed DuDe. Our project would not have been possible without your work!
