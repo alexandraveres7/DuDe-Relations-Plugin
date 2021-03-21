@@ -56,7 +56,9 @@ To run the container use the command below:
 
 `$ docker run -v <path to folder you want to create relations for>:/ale -v <path to folder you wish to see results in/result.json>:/dude-relations/result.json alexandraveres7/dude-relations`
 
-<h2 >Contributing</h2>
+**You will see the results in the result.json file.**
+
+<h2 >Contribute</h2>
 We are not open to new contributors.
 
 <h2 >Credits</h2>
@@ -64,3 +66,7 @@ We are not open to new contributors.
 Thank you to the team that developed DuDe. Our project would not have been possible without your work!
 
 https://wettel.github.io/dude.html
+
+<h2 >License</h2>
+
+MIT © [Alexandra Veres & Norica Bacuieti]
