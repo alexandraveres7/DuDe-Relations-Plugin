@@ -20,21 +20,22 @@ You **MUST** have **Java 11/above** and **Python version 3.8/above** installed i
 
 <h4 >DX Platform</h4>
 
-1. Install dx platform on your computer.
-2. Go to the plugins directory in the dx platform project and create a folder named 'dude-relations'
-3. Go to the directory where you have downloaded this project and modify the paths from deploy.sh script in order to fit the paths on your computer.
-4. Run the deploy.sh script which you can find in the root folder of this project.
-5. Run dx platform
+1. Download and install [DX-Platform](https://drive.google.com/file/d/1bC4ZJ_RVcGJezAHZ45AIF8UKAh3gG3NY/view) on your computer. Follow the README for installation guidelines.
+2. Import your desired project to DX Platform following the guidelines from it's README.
+3. Go to the plugins directory in the DX Platform project and create a folder named 'dude-relations'
+4. Go to the directory where you have downloaded this project and modify the paths from deploy.sh script in order to fit the paths on your computer.
+5. Run the deploy.sh script which you can find in the root folder of this project.
+6. Run dx platform
 `$ ./startDx.sh`
-6. Open your favorite browser on **localhost:6060/index.html**
-7. Open the project you wish to analyze.
-8. Go to configurations and add a new configuration command for Dude Relations plugin. The command must have a name, a description and a root folder (the absolute path to the folder where your project exists).
+7. Open your favorite browser on **localhost:6060/index.html**
+8. Open the project you wish to analyze.
+9. Go to configurations and add a new configuration command for Dude Relations plugin. The command must have a name, a description and a root folder (the absolute path to the folder where your project exists in dx platform).
 
 _Example for root folder: /home/user/.dx-platform/projects/your_project_name_
 
-9.Run the command.
+10.Run the command.
 
-10.Go to Relations in dx-platform and see the results. Well done!
+11.Go to Relations in dx-platform and see the results. Well done!
 
 <h4 >Standalone</h4>
 
