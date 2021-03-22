@@ -16,7 +16,7 @@ In DX Platform Relations you would get something like this:
 
 <h2 >Requirements</h2>
 
-You **MUST** have **Java 11/above** and **Python version 3.8/above** installed in order to run this project.
+You **MUST** have **Java 11/above**, **Python version 3.8/above** and **bash** installed in order to run this project.
 
 <h2 >Usage</h2>
 
@@ -28,6 +28,8 @@ After you clone this repository or download the zip, follow the steps below:
 2. Import your desired project to DX Platform following the guidelines from it's README.
 3. Go to the plugins directory in the DX Platform project and create a folder named 'dude-relations'
 4. Go to the directory where you have downloaded this project and modify the paths from deploy.sh script in order to fit the paths on your computer.
+_Example:_ on the first line we copy the plugin-info.json from this project to the plugins directory in DX Platform so you would get something like this
+  cp /home/user/DuDe-Relations-Plugin/plugin-info.json (the absolute path to the json file on your computer) /home/user/.dx-platform/plugins/plugin-info.json (the absolute path to the file in plugins directory of dx - you can name this file however you want i chose plugin-info for consistency) 
 5. Run the deploy.sh script which you can find in the root folder of this project.
 6. Run dx platform
 `$ ./startDx.sh`
