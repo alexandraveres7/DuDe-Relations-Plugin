@@ -44,7 +44,7 @@ _Example: on the first line we copy the plugin-info.json from this project to th
 8. Open the project you wish to analyze.
 9. Go to configurations and add a new configuration command for Dude Relations plugin. The command must have a name, a description and a root folder (the absolute path to the folder where your project exists in dx platform).
 
-_Example for root folder: /home/user/.dx-platform/projects/your_project_name_
+_Example for root folder: /home/user/.dx-platform/projects/your_project_id_
 
 10.Run the command.
 
