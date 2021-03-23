@@ -75,9 +75,8 @@ We are not open to new contributors.
 
 <h2 >Credits</h2>
 
-Thank you to the team that developed DuDe. Our project would not have been possible without your work!
+Thank you to the team that developed [DuDe](https://wettel.github.io/dude.html). Our project would not have been possible without your work!
 
-https://wettel.github.io/dude.html
 
 <h2 >License</h2>
 
