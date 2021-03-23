@@ -20,6 +20,10 @@ You **MUST** have **Java 11/above**, **Python version 3.8/above** and **bash** i
 
 <h2 >Usage</h2>
 
+_Sidenote_:
+
+- make sure the project you wish to analyze has java, python or scala files. If you wish to analyze other file types, you can do that by modifying **dude/config.txt** and adding your preffered file types to the line **file.extensions**
+
 <h4 >DX Platform</h4>
 
 After you clone this repository or download the zip, follow the steps below:
